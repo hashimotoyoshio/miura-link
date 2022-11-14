@@ -1,0 +1,29 @@
+.grid {
+    margin: 50px auto;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 26px;
+}
+
+.item {
+    height: 100px;
+    border-style: ridge;
+    border-radius: 30px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: #eaf6fd;
+    font-size: 26px;
+    box-shadow: 3px 3px 5px black;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.item:hover {
+    background-color: #badff5;
+}
+
+.item:active {
+    box-shadow: none;
+    transform: translateY(5px);
+}
